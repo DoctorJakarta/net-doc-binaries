@@ -1,0 +1,90 @@
+{
+    "servlets": {
+        "org.owasp.webgoat.LessonSource": {
+            "hasWebXml": false,
+            "urlPatterns": null,
+            "hasAnnotations": false,
+            "annotations": [
+                
+            ],
+            "parents": null
+        },
+        "org.owasp.webgoat.servlets.Controller": {
+            "hasWebXml": false,
+            "urlPatterns": null,
+            "hasAnnotations": false,
+            "annotations": [
+                
+            ],
+            "parents": null
+        },
+        "org.owasp.webgoat.HammerHead": {
+            "hasWebXml": false,
+            "urlPatterns": null,
+            "hasAnnotations": false,
+            "annotations": [
+                
+            ],
+            "parents": null
+        },
+        "org.owasp.webgoat.Catcher": {
+            "hasWebXml": false,
+            "urlPatterns": null,
+            "hasAnnotations": false,
+            "annotations": [
+                
+            ],
+            "parents": null
+        }
+    },
+    "netConnections": {
+        "org.owasp.webgoat.lessons.BlindScript": {
+            "hasUrlConnection": true,
+            "imports": [
+                "java.net.URLConnection"
+            ],
+            "hasServerSockets": false,
+            "hasSockets": false,
+            "parents": null,
+            "clazz": "org.owasp.webgoat.lessons.BlindScript"
+        },
+        "org.owasp.webgoat.lessons.AbstractLesson": {
+            "hasUrlConnection": true,
+            "imports": [
+                "java.net.HttpURLConnection"
+            ],
+            "hasServerSockets": false,
+            "hasSockets": false,
+            "parents": null,
+            "clazz": "org.owasp.webgoat.lessons.AbstractLesson"
+        },
+        "org.owasp.webgoat.util.Interceptor": {
+            "hasUrlConnection": true,
+            "imports": [
+                "java.net.Socket"
+            ],
+            "hasServerSockets": false,
+            "hasSockets": true,
+            "parents": null,
+            "clazz": "org.owasp.webgoat.util.Interceptor"
+        },
+        "org.owasp.webgoat.lessons.Challenge2Screen": {
+            "hasUrlConnection": true,
+            "imports": [
+                "java.net.DatagramSocket",
+                "java.net.Socket"
+            ],
+            "hasServerSockets": false,
+            "hasSockets": true,
+            "parents": null,
+            "clazz": "org.owasp.webgoat.lessons.Challenge2Screen"
+        }
+    },
+    "restServices": {
+        
+    },
+    "webSockets": {
+        
+    },
+    "name": "My Report"
+}
