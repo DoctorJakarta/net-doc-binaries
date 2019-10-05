@@ -1,4 +1,6 @@
-#Thu Sep 12 12:48:35 CDT 2019
-source-file=WebGoat-5.4.war
-source-directory=D\:\\dev\\tools\\NetDoc\\sample/
-subpackages=.
+#Sat Oct 05 12:39:14 CDT 2019
+source-file=Spring-Sample.jar
+source-directory=sample/
+source-type=A
+classpath=
+is-linux=yes
